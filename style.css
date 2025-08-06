@@ -1,0 +1,38 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  width: 80%;
+  padding: 12px;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.country-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 4px;
+}
